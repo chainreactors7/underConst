@@ -27,7 +27,7 @@ img {
 }
 
 .uc {
-    width: 40vw;
+    width: 35vw;
 }
 
 .container {
@@ -38,9 +38,6 @@ img {
     position: relative;
 }
 
-
-
-
 .bg-canvas {
     position: fixed;
     top: 0;
@@ -48,16 +45,14 @@ img {
     height: 100%; 
     width: 100%;
     z-index: -10;
-    background: linear-gradient(to bottom, #000000 0%, #231e48 200%);
+    background: black;
 }
 
 
 
 @media (max-width: 768px) {
-     * {
-        overflow-x: hidden;
-    }
     
+
     h1 a{
         font-size: 3rem;
         font-weight: 700;
@@ -120,16 +115,9 @@ body::-webkit-scrollbar-track {
     background: transparent;
 }
 
-.small {
-    width: 6px;
-    height: 6px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-}
-
 .big {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     background-color: white;
     border-radius: 50%;
     margin-bottom: 20rem;
