@@ -11,6 +11,7 @@ body {
     text-align: center;
     color:#fff;
     padding-top: 10vh;
+    overflow-x: hidden;
 }
 
 h1 a{
