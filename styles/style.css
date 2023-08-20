@@ -54,6 +54,10 @@ img {
 
 
 @media (max-width: 768px) {
+     * {
+        overflow-x: hidden;
+    }
+    
     h1 a{
         font-size: 3rem;
         font-weight: 700;
